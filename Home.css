@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+}
+
+.bg{
+    position: absolute;
+    right:0%;
+    bottom:0%;
+    min-width: 100%;
+    min-height: 100%;
+    height: auto;
+    width:auto;
+    z-index: -1;
+}
+
+.navbar{
+    padding: 2% 10%;
+    text-align: center;
+    background-color: rgba(78, 70, 70, 0.61);
+    background-size: cover;
+}
+
+.navbar li{  
+    display:inline-block;  
+    padding:20px;
+}
+
+.navbar li a{
+    padding: 8px 9px;
+    text-decoration:none;
+    color:white;
+    font-size: 25px;
+    transition: all 0.3s ease 0s;
+}
+
+.navbar li a:hover{
+    background-color:rgba(139, 99, 99, 0.705);
+    border-style:hidden;
+    border-radius:15px;
+    color:rgba(255, 255, 255, 0.793);
+    text-shadow: 2px 2px 0px black;
+}
+
+.navbar a.page1{
+    background-color:rgba(139, 99, 99, 0.705);
+    border-style:hidden;
+    border-radius:15px;
+    color:rgba(255, 255, 255, 0.793);
+    text-shadow: 2px 2px 0px black;
+}
+
